@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pavas Navaney | Kwame-Lante Wright</title>
+    <link>/authors/pavas-navaney/</link>
+      <atom:link href="/authors/pavas-navaney/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pavas Navaney</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 14 May 2019 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Pavas Navaney</title>
+      <link>/authors/pavas-navaney/</link>
+    </image>
+    
+    <item>
+      <title>Trinity: A Byzantine Fault-Tolerant Distributed Publish-Subscribe System with Immutable Blockchain-based Persistence</title>
+      <link>/publication/ramachandran-2019-trinity/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 -0700</pubDate>
+      <guid>/publication/ramachandran-2019-trinity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

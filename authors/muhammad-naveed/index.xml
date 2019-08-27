@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muhammad Naveed | Kwame-Lante Wright</title>
+    <link>/authors/muhammad-naveed/</link>
+      <atom:link href="/authors/muhammad-naveed/index.xml" rel="self" type="application/rss+xml" />
+    <description>Muhammad Naveed</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 14 May 2019 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Muhammad Naveed</title>
+      <link>/authors/muhammad-naveed/</link>
+    </image>
+    
+    <item>
+      <title>Trinity: A Byzantine Fault-Tolerant Distributed Publish-Subscribe System with Immutable Blockchain-based Persistence</title>
+      <link>/publication/ramachandran-2019-trinity/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 -0700</pubDate>
+      <guid>/publication/ramachandran-2019-trinity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Kwame-Lante Wright</title>
+    <link>/publication_types/2/</link>
+      <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>2</title>
+      <link>/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>The publish-process-subscribe paradigm for the Internet of Things</title>
+      <link>/publication/krishnamachari-2017-publish/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
+      <guid>/publication/krishnamachari-2017-publish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A privacy mechanism for mobile-based urban traffic monitoring</title>
+      <link>/publication/wang-2015-privacy/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/wang-2015-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backpressure delay enhancement for encounter-based mobile networks while sustaining throughput optimality</title>
+      <link>/publication/alresaini-2015-backpressure/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/alresaini-2015-backpressure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance analysis of various mechanisms for inter-process communication</title>
+      <link>/publication/wright-2007-performance/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 -0800</pubDate>
+      <guid>/publication/wright-2007-performance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

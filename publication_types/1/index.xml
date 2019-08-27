@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Kwame-Lante Wright</title>
+    <link>/publication_types/1/</link>
+      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 14 May 2019 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>1</title>
+      <link>/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Trinity: A Byzantine Fault-Tolerant Distributed Publish-Subscribe System with Immutable Blockchain-based Persistence</title>
+      <link>/publication/ramachandran-2019-trinity/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 -0700</pubDate>
+      <guid>/publication/ramachandran-2019-trinity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VESPER: A Real-time Processing Framework for Vehicle Perception Augmentation</title>
+      <link>/publication/wrightvesper/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0700</pubDate>
+      <guid>/publication/wrightvesper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartEdge: A Smart Contract for Edge Computing</title>
+      <link>/publication/wright-2018-smartedge/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 -0700</pubDate>
+      <guid>/publication/wright-2018-smartedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XenLoop: a transparent high performance inter-VM network loopback</title>
+      <link>/publication/wang-2008-xenloop/</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 -0700</pubDate>
+      <guid>/publication/wang-2008-xenloop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

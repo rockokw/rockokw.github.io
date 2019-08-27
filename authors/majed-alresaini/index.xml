@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Majed Alresaini | Kwame-Lante Wright</title>
+    <link>/authors/majed-alresaini/</link>
+      <atom:link href="/authors/majed-alresaini/index.xml" rel="self" type="application/rss+xml" />
+    <description>Majed Alresaini</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2015 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Majed Alresaini</title>
+      <link>/authors/majed-alresaini/</link>
+    </image>
+    
+    <item>
+      <title>Backpressure delay enhancement for encounter-based mobile networks while sustaining throughput optimality</title>
+      <link>/publication/alresaini-2015-backpressure/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/alresaini-2015-backpressure/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

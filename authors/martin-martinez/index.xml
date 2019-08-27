@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Martin Martinez | Kwame-Lante Wright</title>
+    <link>/authors/martin-martinez/</link>
+      <atom:link href="/authors/martin-martinez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Martin Martinez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Jul 2018 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Martin Martinez</title>
+      <link>/authors/martin-martinez/</link>
+    </image>
+    
+    <item>
+      <title>SmartEdge: A Smart Contract for Edge Computing</title>
+      <link>/publication/wright-2018-smartedge/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 -0700</pubDate>
+      <guid>/publication/wright-2018-smartedge/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
