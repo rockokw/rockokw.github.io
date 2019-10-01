@@ -5,7 +5,7 @@
     <link>/authors/chi-wang/</link>
       <atom:link href="/authors/chi-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2015 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 01 Jul 2015 00:00:00 -0400</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Chi Wang</title>
@@ -15,7 +15,7 @@
     <item>
       <title>A privacy mechanism for mobile-based urban traffic monitoring</title>
       <link>/publication/wang-2015-privacy/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 -0400</pubDate>
       <guid>/publication/wang-2015-privacy/</guid>
       <description></description>
     </item>

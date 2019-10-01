@@ -5,7 +5,7 @@
     <link>/authors/uday-chadha/</link>
       <atom:link href="/authors/uday-chadha/index.xml" rel="self" type="application/rss+xml" />
     <description>Uday Chadha</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Jul 2018 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 30 Jul 2018 00:00:00 -0400</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Uday Chadha</title>
@@ -15,7 +15,7 @@
     <item>
       <title>SmartEdge: A Smart Contract for Edge Computing</title>
       <link>/publication/wright-2018-smartedge/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 -0400</pubDate>
       <guid>/publication/wright-2018-smartedge/</guid>
       <description></description>
     </item>

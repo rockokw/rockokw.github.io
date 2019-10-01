@@ -5,7 +5,7 @@
     <link>/authors/kartik-gopalan/</link>
       <atom:link href="/authors/kartik-gopalan/index.xml" rel="self" type="application/rss+xml" />
     <description>Kartik Gopalan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2008 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 23 Jun 2008 00:00:00 -0400</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Kartik Gopalan</title>
@@ -15,7 +15,7 @@
     <item>
       <title>XenLoop: a transparent high performance inter-VM network loopback</title>
       <link>/publication/wang-2008-xenloop/</link>
-      <pubDate>Mon, 23 Jun 2008 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 -0400</pubDate>
       <guid>/publication/wang-2008-xenloop/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Performance analysis of various mechanisms for inter-process communication</title>
       <link>/publication/wright-2007-performance/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 -0500</pubDate>
       <guid>/publication/wright-2007-performance/</guid>
       <description></description>
     </item>
