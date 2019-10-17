@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 14 May 2019 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Trinity: A Byzantine Fault-Tolerant Distributed Publish-Subscribe System with Immutable Blockchain-based Persistence</title>
       <link>/publication/ramachandran-2019-trinity/</link>
-      <pubDate>Tue, 14 May 2019 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/ramachandran-2019-trinity/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>VESPER: A Real-time Processing Framework for Vehicle Perception Augmentation</title>
       <link>/publication/wrightvesper/</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/wrightvesper/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>SmartEdge: A Smart Contract for Edge Computing</title>
       <link>/publication/wright-2018-smartedge/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>/publication/wright-2018-smartedge/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>The publish-process-subscribe paradigm for the Internet of Things</title>
       <link>/publication/krishnamachari-2017-publish/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/krishnamachari-2017-publish/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>A privacy mechanism for mobile-based urban traffic monitoring</title>
       <link>/publication/wang-2015-privacy/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/wang-2015-privacy/</guid>
       <description></description>
     </item>
@@ -55,7 +55,7 @@
     <item>
       <title>Backpressure delay enhancement for encounter-based mobile networks while sustaining throughput optimality</title>
       <link>/publication/alresaini-2015-backpressure/</link>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/alresaini-2015-backpressure/</guid>
       <description></description>
     </item>
@@ -63,7 +63,7 @@
     <item>
       <title>XenLoop: a transparent high performance inter-VM network loopback</title>
       <link>/publication/wang-2008-xenloop/</link>
-      <pubDate>Mon, 23 Jun 2008 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       <guid>/publication/wang-2008-xenloop/</guid>
       <description></description>
     </item>
@@ -71,7 +71,7 @@
     <item>
       <title>Performance analysis of various mechanisms for inter-process communication</title>
       <link>/publication/wright-2007-performance/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       <guid>/publication/wright-2007-performance/</guid>
       <description></description>
     </item>
