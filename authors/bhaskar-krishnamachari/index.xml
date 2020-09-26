@@ -5,12 +5,28 @@
     <link>/authors/bhaskar-krishnamachari/</link>
       <atom:link href="/authors/bhaskar-krishnamachari/index.xml" rel="self" type="application/rss+xml" />
     <description>Bhaskar Krishnamachari</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Bhaskar Krishnamachari</title>
       <link>/authors/bhaskar-krishnamachari/</link>
     </image>
+    
+    <item>
+      <title>Method and Apparatus of Allocating Automotive Computing Tasks to Networked Devices With Heterogeneous Capabilities</title>
+      <link>/publication/wright-2020-patent/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/wright-2020-patent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MABSTA: Collaborative Computing over Heterogeneous Devices in Dynamic Environments</title>
+      <link>/publication/kao-2020-mabsta/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kao-2020-mabsta/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Trinity: A Byzantine Fault-Tolerant Distributed Publish-Subscribe System with Immutable Blockchain-based Persistence</title>
@@ -22,9 +38,9 @@
     
     <item>
       <title>VESPER: A Real-time Processing Framework for Vehicle Perception Augmentation</title>
-      <link>/publication/wrightvesper/</link>
+      <link>/publication/wright-2019-vesper/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/wrightvesper/</guid>
+      <guid>/publication/wright-2019-vesper/</guid>
       <description></description>
     </item>
     
@@ -37,7 +53,7 @@
     </item>
     
     <item>
-      <title>The publish-process-subscribe paradigm for the Internet of Things</title>
+      <title>The Publish-Process-Subscribe Paradigm for the Internet of Things</title>
       <link>/publication/krishnamachari-2017-publish/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/krishnamachari-2017-publish/</guid>
@@ -45,7 +61,7 @@
     </item>
     
     <item>
-      <title>A privacy mechanism for mobile-based urban traffic monitoring</title>
+      <title>A Privacy Mechanism for Mobile-Based Urban Traffic Monitoring</title>
       <link>/publication/wang-2015-privacy/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/wang-2015-privacy/</guid>
@@ -53,7 +69,7 @@
     </item>
     
     <item>
-      <title>Backpressure delay enhancement for encounter-based mobile networks while sustaining throughput optimality</title>
+      <title>Backpressure Delay Enhancement for Encounter-Based Mobile Networks While Sustaining Throughput Optimality</title>
       <link>/publication/alresaini-2015-backpressure/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/alresaini-2015-backpressure/</guid>

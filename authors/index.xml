@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,24 +15,64 @@
     <item>
       <title>&lt;b&gt;Kwame-Lante Wright&lt;/b&gt;</title>
       <link>/authors/bkwame-lante-wright/b/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/authors/bkwame-lante-wright/b/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bhaskar Krishnamachari</title>
-      <link>/authors/bhaskar-krishnamachari/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/bhaskar-krishnamachari/</guid>
+      <title>Ashiwan Sivakumar</title>
+      <link>/authors/ashiwan-sivakumar/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ashiwan-sivakumar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bo Yu</title>
+      <link>/authors/bo-yu/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/bo-yu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fan Bai</title>
       <link>/authors/fan-bai/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/authors/fan-bai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peter Steenkiste</title>
+      <link>/authors/peter-steenkiste/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/peter-steenkiste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bhaskar Krishnamachari</title>
+      <link>/authors/bhaskar-krishnamachari/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/bhaskar-krishnamachari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Po-Han Huang</title>
+      <link>/authors/po-han-huang/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/po-han-huang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi-Hsuan Kao</title>
+      <link>/authors/yi-hsuan-kao/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/yi-hsuan-kao/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Po-Han Huang | Kwame-Lante Wright</title>
+    <link>/authors/po-han-huang/</link>
+      <atom:link href="/authors/po-han-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Po-Han Huang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Po-Han Huang</title>
+      <link>/authors/po-han-huang/</link>
+    </image>
+    
+    <item>
+      <title>MABSTA: Collaborative Computing over Heterogeneous Devices in Dynamic Environments</title>
+      <link>/publication/kao-2020-mabsta/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kao-2020-mabsta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
