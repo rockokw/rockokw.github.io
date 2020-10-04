@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/publication_types/1/</loc>
-    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/bkwame-lante-wright/b/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,6 +34,11 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,18 +138,18 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/bkwame-wright/b/</loc>
+    <loc>/publication_types/4/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/krishnamachari-2017-publish/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -178,7 +178,7 @@
   </url>
   
   <url>
-    <loc>/authors/michael-j-neely/</loc>
+    <loc>/authors/michael-j.-neely/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -210,10 +210,6 @@
   <url>
     <loc>/publication/wright-2007-performance/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/admin/</loc>
   </url>
   
   <url>

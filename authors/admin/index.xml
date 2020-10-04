@@ -5,12 +5,100 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Kwame-Lante Wright</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020</copyright><lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu9cbb6a384e1d8502b63d9d9b185f13ed_20344_512x512_fill_lanczos_center_2.png</url>
       <title>Kwame-Lante Wright</title>
       <link>/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>CloudSLAM: Edge Offloading of Stateful Vehicular Applications</title>
+      <link>/publication/wright-2020-cloudslam/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/wright-2020-cloudslam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Method and Apparatus of Allocating Automotive Computing Tasks to Networked Devices With Heterogeneous Capabilities</title>
+      <link>/publication/wright-2020-patent/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/wright-2020-patent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MABSTA: Collaborative Computing over Heterogeneous Devices in Dynamic Environments</title>
+      <link>/publication/kao-2020-mabsta/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kao-2020-mabsta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trinity: A Byzantine Fault-Tolerant Distributed Publish-Subscribe System with Immutable Blockchain-based Persistence</title>
+      <link>/publication/ramachandran-2019-trinity/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ramachandran-2019-trinity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VESPER: A Real-time Processing Framework for Vehicle Perception Augmentation</title>
+      <link>/publication/wright-2019-vesper/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/wright-2019-vesper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartEdge: A Smart Contract for Edge Computing</title>
+      <link>/publication/wright-2018-smartedge/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/wright-2018-smartedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Publish-Process-Subscribe Paradigm for the Internet of Things</title>
+      <link>/publication/krishnamachari-2017-publish/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/krishnamachari-2017-publish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Privacy Mechanism for Mobile-Based Urban Traffic Monitoring</title>
+      <link>/publication/wang-2015-privacy/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/wang-2015-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backpressure Delay Enhancement for Encounter-Based Mobile Networks While Sustaining Throughput Optimality</title>
+      <link>/publication/alresaini-2015-backpressure/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/alresaini-2015-backpressure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XenLoop: A Transparent High Performance Inter-VM Network Loopback</title>
+      <link>/publication/wang-2008-xenloop/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/wang-2008-xenloop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance Analysis of Various Mechanisms for Inter-process Communication</title>
+      <link>/publication/wright-2007-performance/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/wright-2007-performance/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
