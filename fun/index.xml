@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funs | Kwame-Lante Wright</title>
+    <link>/fun/</link>
+      <atom:link href="/fun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Funs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2021</copyright><lastBuildDate>Tue, 22 Jun 2021 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu9cbb6a384e1d8502b63d9d9b185f13ed_20344_512x512_fill_lanczos_center_2.png</url>
+      <title>Funs</title>
+      <link>/fun/</link>
+    </image>
+    
+    <item>
+      <title>Robin Nest</title>
+      <link>/fun/robins/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 -0400</pubDate>
+      <guid>/fun/robins/</guid>
+      <description>&lt;p&gt;Earlier this month, a robin built a nest on my balcony and I discovered that she laid eggs! So I quickly got to work and set up a camera to monitor the birth of her brood. I made this greeting card to help tell their story:&lt;/p&gt;
+&lt;img src=&#34;robins_2021.jpg&#34;&gt;
+&lt;p&gt;I also put together the following video using some images captured by a motion-activated trigger.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/rc5YYRgqaRc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+&lt;p&gt;The Python script I wrote to convert a list of images into an mp4 video can be found &lt;a href=&#34;https://github.com/rockokw/gen_video&#34;&gt;here on GitHub&lt;/a&gt;. Overall, I captured about 150GB of continuous footage. If I ever come up with a way to extract interesting clips efficiently, I&amp;rsquo;ll try to put together a more entertaining video. The camera I used is a Wyze Cam v3.
+&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Drones</title>
+      <link>/fun/drones/</link>
+      <pubDate>Wed, 17 May 2017 12:23:11 -0400</pubDate>
+      <guid>/fun/drones/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a gallery of two drones I&amp;rsquo;ve built. The FPV quadcopter was built for personal use and the hexacopter was built for a research project.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-album&#34; href=&#34;/fun/drones/album/fpv_quad.jpg&#34; data-caption=&#34;Personal FPV Quadcopter&#34;&gt;
+  &lt;img data-src=&#34;/fun/drones/album/fpv_quad_hu63c0d3230b78da976f24aaa4e17dbed2_195548_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;220&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-album&#34; href=&#34;/fun/drones/album/hex.jpg&#34; data-caption=&#34;Hexacopter for VESPER research project&#34;&gt;
+  &lt;img data-src=&#34;/fun/drones/album/hex_hu1b04f3b5d09247cc047e994d617e00d8_384057_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;videos&#34;&gt;Videos&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/jmKnlTih35I&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/86oZRjlxwls&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/LnKHmPna8dM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/86NZWg61Eto&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Animation</title>
+      <link>/fun/animation/</link>
+      <pubDate>Thu, 06 Aug 2009 00:00:00 -0400</pubDate>
+      <guid>/fun/animation/</guid>
+      <description>&lt;p&gt;I took a course on &lt;a href=&#34;https://www.autodesk.com/products/maya/&#34;&gt;Maya&lt;/a&gt; at NYU. Here&amp;rsquo;s a demo of some of my work.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/E-qJe8rmIys&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

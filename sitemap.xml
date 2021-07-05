@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/fun/</loc>
+    <lastmod>2021-06-22T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-06-22T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>/fun/robins/</loc>
+    <lastmod>2021-06-22T00:00:00-04:00</lastmod>
+  </url><url>
     <loc>/publication_types/1/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +21,6 @@
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/fan-bai/</loc>
-    <lastmod>2021-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/admin/</loc>
@@ -83,6 +89,9 @@
     <loc>/authors/uday-chadha/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/fun/drones/</loc>
+    <lastmod>2017-05-17T12:23:11-04:00</lastmod>
+  </url><url>
     <loc>/publication_types/4/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -112,6 +121,9 @@
   </url><url>
     <loc>/authors/murali-annavaram/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/fun/animation/</loc>
+    <lastmod>2009-08-06T00:00:00-04:00</lastmod>
   </url><url>
     <loc>/authors/jian-wang/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
