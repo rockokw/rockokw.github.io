@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="A robin laid some eggs on my balcony">
+  <meta name="description" content="My exploration of math, physics, algorithms &amp; art">
 
   
-  <link rel="alternate" hreflang="en-us" href="/fun/robins/">
+  <link rel="alternate" hreflang="en-us" href="/fun/computer_graphics/">
 
   
 
@@ -291,7 +291,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu9cbb6a384e1d8502b63d9d9b185f13ed_20344_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu9cbb6a384e1d8502b63d9d9b185f13ed_20344_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/fun/robins/">
+  <link rel="canonical" href="/fun/computer_graphics/">
 
   
   
@@ -306,15 +306,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Kwame-Lante Wright">
-  <meta property="og:url" content="/fun/robins/">
-  <meta property="og:title" content="Robin Nest | Kwame-Lante Wright">
-  <meta property="og:description" content="A robin laid some eggs on my balcony"><meta property="og:image" content="/fun/robins/featured.jpg">
-  <meta property="twitter:image" content="/fun/robins/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/fun/computer_graphics/">
+  <meta property="og:title" content="Graphics | Kwame-Lante Wright">
+  <meta property="og:description" content="My exploration of math, physics, algorithms &amp; art"><meta property="og:image" content="/fun/computer_graphics/featured.jpg">
+  <meta property="twitter:image" content="/fun/computer_graphics/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-06-22T00:00:00-04:00">
+      <meta property="article:published_time" content="2024-08-30T00:00:00-04:00">
     
-    <meta property="article:modified_time" content="2021-06-22T00:00:00-04:00">
+    <meta property="article:modified_time" content="2024-08-30T00:00:00-04:00">
   
 
   
@@ -333,7 +333,7 @@
 
 
 
-  <title>Robin Nest | Kwame-Lante Wright</title>
+  <title>Graphics | Kwame-Lante Wright</title>
 
 </head>
 
@@ -604,26 +604,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Graphics</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Robin Nest</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
@@ -637,7 +629,7 @@
     
       
     
-    Jun 22, 2021
+    Aug 30, 2024
   </span>
   
 
@@ -654,29 +646,22 @@
 
 </div>
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 540px;">
-  <div style="position: relative">
-    <img src="/fun/robins/featured_hufcad7cde17afd63e0b54911665a09fc7_258473_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">A robin nest on my balcony</span>
-  </div>
 </div>
 
 
@@ -684,13 +669,140 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Earlier this month, a robin built a nest on my balcony and I discovered that she laid eggs! So I quickly got to work and set up a camera to monitor the birth of her brood. I made this greeting card to help tell their story:</p>
-<img src="robins_2021.jpg">
-<p>I also put together the following video using some images captured by a motion-activated trigger.</p>
-<iframe width="560" height="315" style="display:block;margin:auto" src="https://www.youtube.com/embed/rc5YYRgqaRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Computer graphics is so rich with mathematics, physics, algorithms and art. I only wish I had dived into the topic sooner.
+<br><br></p>
+<h2 id="cmus-a-hrefhttp15462coursescscmueduspring2020home15-462662a">CMU&rsquo;s <a href="http://15462.courses.cs.cmu.edu/spring2020/home">15-462/662</a></h2>
+<p>During my time at CMU, I audited the computer graphics course taught by <a href="https://www.cs.cmu.edu/~kmcrane/">Professor Crane</a> and I&rsquo;m glad I did! It&rsquo;s such a fascinating topic and Crane is such a great professor. Check out my notes from some of the project work below.</p>
+<h3 id="implementing-scotty3d">Implementing Scotty3D</h3>
+<p><a href="https://github.com/cmu462/Scotty3D">Scotty3D</a> is a 3D graphics software package that we had to implement as part of the coursework. One of the features is path tracing, which allows for realistic rendering.</p>
+<h4 id="rays-and-intersections">Rays and intersections</h4>
+<p>Here is the simple geometry of a sphere. (Ignore the red box for now, that just depicts the bounding volume of the model.)
+<img src="images/sphere_bvh.png" alt="A simple sphere"></p>
+<p>Imagining shooting rays out of a camera and checking if they hit an object in the scene, as depicted in the image below.
+<img src="images/sphere_ray_intersections.png" alt="The sphere intersected by camera rays"></p>
+<p>These ray intersection checks are the basic concept behind ray and path tracing. They allow you to simulate the paths that light would take as they reach the camera sensor.</p>
+<p><img src="images/sphere_normals.png" alt="Ray traced sphere">
+The image above shows a visualization of the normals computed at each intersection point with the sphere. My intersection computations check out! Nothing a little bit of linear algebra couldn&rsquo;t handle.</p>
+<h4 id="acceleration-using-bounding-volume-hierarchies-bvh">Acceleration using bounding volume hierarchies (BVH)</h4>
+<p>Unfortunately, ray intersection computations can add up and rendering complex models is incredibly slow. A spatial data structure known as <a href="https://en.wikipedia.org/wiki/Bounding_volume_hierarchy">bounding volume hierarchies (BVH)</a> allows us to speed up the intersection queries. (Note that while I refer to it as a &ldquo;spatial&rdquo; data structure, it actually partitions primitives, not space, like some others do.)</p>
+<p>Check out this model of a bunny&hellip;
+<img src="images/bunny_normals.png" alt="Visualization of bunny geometry normals"></p>
+<p>and it&rsquo;s corresponding BVH&hellip; (the visualization below gives you a little sense of how the bunny&rsquo;s primitives are broken up into separate volumes.)
+<img src="images/bunny_bvh.png" alt="Visualization of bunny&rsquo;s BVH"></p>
+<p>I ran a performance experiment on the bunny model, along with the dragon and Wall-E models shown below.
+<img src="images/dragon_normals.png" alt="Visualization of dragon geometry normals">
+<img src="images/walle_normals.png" alt="Visualization of walle geometry normals"></p>
+<p>To give a sense of the complexity of the models, the table below shows the number of vertices they contain.</p>
+<table class="graphics">
+<thead>
+  <tr>
+    <th>Model</th>
+    <th>Vertices</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://github.com/cmu462/Scotty3D/blob/c09214dd050842bc0bb9e1e0c72afdb72584f79d/media/pathtracer/advanced/bunny.dae">bunny</a></td>
+    <td>16,852</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/cmu462/Scotty3D/blob/c09214dd050842bc0bb9e1e0c72afdb72584f79d/media/pathtracer/advanced/dragon.dae">dragon</a></td>
+    <td>52,562</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/cmu462/Scotty3D/blob/c09214dd050842bc0bb9e1e0c72afdb72584f79d/media/pathtracer/advanced/wall-e.dae">Wall-E</a></td>
+    <td>480,652</td>
+  </tr>
+</tbody>
+</table>
+<br><br>
+<p>Building a BVH data structure is not free, but I can reuse it multiple times if I&rsquo;m rerendering the same model. Amortized cost!</p>
+<table class="graphics">
+<thead>
+  <tr>
+    <th></th>
+    <th class="colspan" colspan="2">Build Time (s)</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Model</th>
+    <th>Naive</th>
+    <th>BVH</th>
+    <th>Ratio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>bunny</td>
+    <td>0.0109</td>
+    <td>0.1248</td>
+    <td class="bad">11.4x</td>
+  </tr>
+  <tr>
+    <td>dragon</td>
+    <td>0.0537</td>
+    <td>0.4968</td>
+    <td class="bad">9.3x</td>
+  </tr>
+  <tr>
+    <td>Wall-E</td>
+    <td>0.0766</td>
+    <td>0.9893</td>
+    <td class="bad">12.9x</td>
+  </tr>
+</tbody>
+</table>
 <br>
-<p>The Python script I wrote to convert a list of images into an mp4 video can be found <a href="https://github.com/rockokw/gen_video">here on GitHub</a>. Overall, I captured about 150GB of continuous footage. If I ever come up with a way to extract interesting clips efficiently, I&rsquo;ll try to put together a more entertaining video. The camera I used is a Wyze Cam v3.
-<br></p>
+<p>Here I show the time it takes to render the models shown on this page. Look at that render speedup, up to two orders of magnitude in some cases!</p>
+<table class="graphics">
+<thead>
+  <tr>
+    <th></th>
+    <th class="colspan" colspan="2">Render Time (s)</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Model</th>
+    <th>Naive</th>
+    <th>BVH</th>
+    <th>Ratio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>bunny</td>
+    <td>37.859</td>
+    <td>0.3508</td>
+    <td class="good">0.009x</td>
+  </tr>
+  <tr>
+    <td>dragon</td>
+    <td>174.3522</td>
+    <td>0.4308</td>
+    <td class="good">0.002x</td>
+  </tr>
+  <tr>
+    <td>Wall-E</td>
+    <td>3.4061</td>
+    <td>0.3799</td>
+    <td class="good">0.112x</td>
+  </tr>
+</tbody>
+</table>
+<br><br>
+<h4 id="let-there-by-light-shadow-rays">Let there by light! (Shadow rays)</h4>
+<p>Taking things a step further, I now use the ray tracing implementation to check for obstacles between geometry and light sources. This enables me to render shadows.
+<img src="images/bunny_render.png" alt="Visualization of bunny with simple shadows">
+<img src="images/dragon_render.png" alt="Visualization of dragon with simple shadows">
+<img src="images/walle_render.png" alt="Visualization of walle with simple shadows"></p>
+<p>They&rsquo;re a bit noisy but so far, so good! We&rsquo;ll address that later.</p>
+<h4 id="more-to-come">More to come!</h4>
+<p>Stay tuned for more content related to materials and environmental lighting.
+<br><br></p>
+<h2 id="blast-from-the-past">Blast from the past</h2>
+<p>Back in 2009, I took a course on <a href="https://www.autodesk.com/products/maya/">Maya</a> at NYU. Here&rsquo;s a demo of some of my work. Enjoy!</p>
+<iframe width="560" height="315" style="display:block;margin:auto" src="https://www.youtube.com/embed/E-qJe8rmIys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 
     </div>
 
@@ -720,7 +832,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/fun/robins/&amp;text=Robin%20Nest" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/fun/computer_graphics/&amp;text=Graphics" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -733,7 +845,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/fun/robins/&amp;t=Robin%20Nest" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/fun/computer_graphics/&amp;t=Graphics" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -746,7 +858,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Robin%20Nest&amp;body=/fun/robins/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Graphics&amp;body=/fun/computer_graphics/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -759,7 +871,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/fun/robins/&amp;title=Robin%20Nest" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/fun/computer_graphics/&amp;title=Graphics" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -772,7 +884,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Robin%20Nest%20/fun/robins/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Graphics%20/fun/computer_graphics/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -785,7 +897,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/fun/robins/&amp;title=Robin%20Nest" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/fun/computer_graphics/&amp;title=Graphics" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

@@ -5,12 +5,154 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Kwame-Lante Wright</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024</copyright><lastBuildDate>Tue, 22 Jun 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024</copyright><lastBuildDate>Fri, 30 Aug 2024 00:00:00 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu9cbb6a384e1d8502b63d9d9b185f13ed_20344_512x512_fill_lanczos_center_2.png</url>
       <title>Kwame-Lante Wright</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Graphics</title>
+      <link>/fun/computer_graphics/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 -0400</pubDate>
+      <guid>/fun/computer_graphics/</guid>
+      <description>&lt;p&gt;Computer graphics is so rich with mathematics, physics, algorithms and art. I only wish I had dived into the topic sooner.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cmus-a-hrefhttp15462coursescscmueduspring2020home15-462662a&#34;&gt;CMU&amp;rsquo;s &lt;a href=&#34;http://15462.courses.cs.cmu.edu/spring2020/home&#34;&gt;15-462/662&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;During my time at CMU, I audited the computer graphics course taught by &lt;a href=&#34;https://www.cs.cmu.edu/~kmcrane/&#34;&gt;Professor Crane&lt;/a&gt; and I&amp;rsquo;m glad I did! It&amp;rsquo;s such a fascinating topic and Crane is such a great professor. Check out my notes from some of the project work below.&lt;/p&gt;
+&lt;h3 id=&#34;implementing-scotty3d&#34;&gt;Implementing Scotty3D&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cmu462/Scotty3D&#34;&gt;Scotty3D&lt;/a&gt; is a 3D graphics software package that we had to implement as part of the coursework. One of the features is path tracing, which allows for realistic rendering.&lt;/p&gt;
+&lt;h4 id=&#34;rays-and-intersections&#34;&gt;Rays and intersections&lt;/h4&gt;
+&lt;p&gt;Here is the simple geometry of a sphere. (Ignore the red box for now, that just depicts the bounding volume of the model.)
+&lt;img src=&#34;images/sphere_bvh.png&#34; alt=&#34;A simple sphere&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Imagining shooting rays out of a camera and checking if they hit an object in the scene, as depicted in the image below.
+&lt;img src=&#34;images/sphere_ray_intersections.png&#34; alt=&#34;The sphere intersected by camera rays&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These ray intersection checks are the basic concept behind ray and path tracing. They allow you to simulate the paths that light would take as they reach the camera sensor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/sphere_normals.png&#34; alt=&#34;Ray traced sphere&#34;&gt;
+The image above shows a visualization of the normals computed at each intersection point with the sphere. My intersection computations check out! Nothing a little bit of linear algebra couldn&amp;rsquo;t handle.&lt;/p&gt;
+&lt;h4 id=&#34;acceleration-using-bounding-volume-hierarchies-bvh&#34;&gt;Acceleration using bounding volume hierarchies (BVH)&lt;/h4&gt;
+&lt;p&gt;Unfortunately, ray intersection computations can add up and rendering complex models is incredibly slow. A spatial data structure known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Bounding_volume_hierarchy&#34;&gt;bounding volume hierarchies (BVH)&lt;/a&gt; allows us to speed up the intersection queries. (Note that while I refer to it as a &amp;ldquo;spatial&amp;rdquo; data structure, it actually partitions primitives, not space, like some others do.)&lt;/p&gt;
+&lt;p&gt;Check out this model of a bunny&amp;hellip;
+&lt;img src=&#34;images/bunny_normals.png&#34; alt=&#34;Visualization of bunny geometry normals&#34;&gt;&lt;/p&gt;
+&lt;p&gt;and it&amp;rsquo;s corresponding BVH&amp;hellip; (the visualization below gives you a little sense of how the bunny&amp;rsquo;s primitives are broken up into separate volumes.)
+&lt;img src=&#34;images/bunny_bvh.png&#34; alt=&#34;Visualization of bunny&amp;rsquo;s BVH&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I ran a performance experiment on the bunny model, along with the dragon and Wall-E models shown below.
+&lt;img src=&#34;images/dragon_normals.png&#34; alt=&#34;Visualization of dragon geometry normals&#34;&gt;
+&lt;img src=&#34;images/walle_normals.png&#34; alt=&#34;Visualization of walle geometry normals&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To give a sense of the complexity of the models, the table below shows the number of vertices they contain.&lt;/p&gt;
+&lt;table class=&#34;graphics&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Model&lt;/th&gt;
+    &lt;th&gt;Vertices&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://github.com/cmu462/Scotty3D/blob/c09214dd050842bc0bb9e1e0c72afdb72584f79d/media/pathtracer/advanced/bunny.dae&#34;&gt;bunny&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;16,852&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://github.com/cmu462/Scotty3D/blob/c09214dd050842bc0bb9e1e0c72afdb72584f79d/media/pathtracer/advanced/dragon.dae&#34;&gt;dragon&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;52,562&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://github.com/cmu462/Scotty3D/blob/c09214dd050842bc0bb9e1e0c72afdb72584f79d/media/pathtracer/advanced/wall-e.dae&#34;&gt;Wall-E&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;480,652&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;p&gt;Building a BVH data structure is not free, but I can reuse it multiple times if I&amp;rsquo;m rerendering the same model. Amortized cost!&lt;/p&gt;
+&lt;table class=&#34;graphics&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th class=&#34;colspan&#34; colspan=&#34;2&#34;&gt;Build Time (s)&lt;/th&gt;
+    &lt;th&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Model&lt;/th&gt;
+    &lt;th&gt;Naive&lt;/th&gt;
+    &lt;th&gt;BVH&lt;/th&gt;
+    &lt;th&gt;Ratio&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;bunny&lt;/td&gt;
+    &lt;td&gt;0.0109&lt;/td&gt;
+    &lt;td&gt;0.1248&lt;/td&gt;
+    &lt;td class=&#34;bad&#34;&gt;11.4x&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;dragon&lt;/td&gt;
+    &lt;td&gt;0.0537&lt;/td&gt;
+    &lt;td&gt;0.4968&lt;/td&gt;
+    &lt;td class=&#34;bad&#34;&gt;9.3x&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Wall-E&lt;/td&gt;
+    &lt;td&gt;0.0766&lt;/td&gt;
+    &lt;td&gt;0.9893&lt;/td&gt;
+    &lt;td class=&#34;bad&#34;&gt;12.9x&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Here I show the time it takes to render the models shown on this page. Look at that render speedup, up to two orders of magnitude in some cases!&lt;/p&gt;
+&lt;table class=&#34;graphics&#34;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th class=&#34;colspan&#34; colspan=&#34;2&#34;&gt;Render Time (s)&lt;/th&gt;
+    &lt;th&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Model&lt;/th&gt;
+    &lt;th&gt;Naive&lt;/th&gt;
+    &lt;th&gt;BVH&lt;/th&gt;
+    &lt;th&gt;Ratio&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;bunny&lt;/td&gt;
+    &lt;td&gt;37.859&lt;/td&gt;
+    &lt;td&gt;0.3508&lt;/td&gt;
+    &lt;td class=&#34;good&#34;&gt;0.009x&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;dragon&lt;/td&gt;
+    &lt;td&gt;174.3522&lt;/td&gt;
+    &lt;td&gt;0.4308&lt;/td&gt;
+    &lt;td class=&#34;good&#34;&gt;0.002x&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Wall-E&lt;/td&gt;
+    &lt;td&gt;3.4061&lt;/td&gt;
+    &lt;td&gt;0.3799&lt;/td&gt;
+    &lt;td class=&#34;good&#34;&gt;0.112x&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;h4 id=&#34;let-there-by-light-shadow-rays&#34;&gt;Let there by light! (Shadow rays)&lt;/h4&gt;
+&lt;p&gt;Taking things a step further, I now use the ray tracing implementation to check for obstacles between geometry and light sources. This enables me to render shadows.
+&lt;img src=&#34;images/bunny_render.png&#34; alt=&#34;Visualization of bunny with simple shadows&#34;&gt;
+&lt;img src=&#34;images/dragon_render.png&#34; alt=&#34;Visualization of dragon with simple shadows&#34;&gt;
+&lt;img src=&#34;images/walle_render.png&#34; alt=&#34;Visualization of walle with simple shadows&#34;&gt;&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;re a bit noisy but so far, so good! We&amp;rsquo;ll address that later.&lt;/p&gt;
+&lt;h4 id=&#34;more-to-come&#34;&gt;More to come!&lt;/h4&gt;
+&lt;p&gt;Stay tuned for more content related to materials and environmental lighting.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;blast-from-the-past&#34;&gt;Blast from the past&lt;/h2&gt;
+&lt;p&gt;Back in 2009, I took a course on &lt;a href=&#34;https://www.autodesk.com/products/maya/&#34;&gt;Maya&lt;/a&gt; at NYU. Here&amp;rsquo;s a demo of some of my work. Enjoy!&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; style=&#34;display:block;margin:auto&#34; src=&#34;https://www.youtube.com/embed/E-qJe8rmIys&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;br&gt;
+</description>
+    </item>
     
     <item>
       <title>Robin Nest</title>
